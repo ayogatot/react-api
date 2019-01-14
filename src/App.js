@@ -32,6 +32,17 @@ const Card = styled.span`
   }
 `;
 
+const Footer = styled.footer`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15pt;
+  padding: 20pt;
+  background: #393e46;
+  color: #ffffff;
+`;
+
 class App extends Component {
   constructor() {
     super();
@@ -63,6 +74,7 @@ class App extends Component {
           })}
         </Body>
         
+        <Footer>Copyright @ayogatot 2019</Footer>
       </div>
     );
   }
